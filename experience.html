@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Syahirah | Experience</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Times New Roman", serif;
+        }
+
+        body {
+            background-color: #eaf7e9; /* soft green */
+            color: #444;
+            text-align: center;
+        }
+
+        /* HEADER */
+        header {
+            background: #ffc5d9; /* soft pink */
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #444;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: #5fa86a;
+        }
+
+        /* EXPERIENCE SECTION */
+        .experience {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .experience h1 {
+            font-size: 42px;
+            color: #5fa86a;
+            margin-bottom: 30px;
+        }
+
+        /* CARD STYLE */
+        .card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .card h2 {
+            text-transform: uppercase;
+            color: #5fa86a;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            display: none; /* hidden by default */
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .card img {
+            display: none; /* hidden by default */
+            width: 100%;
+            max-width: 400px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #ffc5d9;
+            text-align: center;
+            padding: 20px;
+            color: #444;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <div class="logo">Syahirah</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="experience">
+        <h1>My Experience</h1>
+
+        <div class="card" onclick="toggleCard(this)">
+            <h2>Secretary - Warna Warni Aidilfitri</h2>
+            <p>SERVED AS SECRETARY FOR THE "WARNA WARNA AIDILFITRI" PROGRAM.</p>
+            <img src="experience1.jpg" alt="Secretary Photo">
+        </div>
+
+        <div class="card" onclick="toggleCard(this)">
+            <h2>Committee Member - Pemantapan Program</h2>
+            <p>HANDLED INVITATIONS AS A COMMITTEE MEMBER FOR THE "PEMANTAPAN" PROGRAM.</p>
+            <img src="experience2.jpg" alt="Committee Photo">
+        </div>
+
+        <div class="card" onclick="toggleCard(this)">
+            <h2>Completed an internship at Kolej Koridor</h2>
+            <p>Gained practical experience in administrative tasks, event coordination, and daily operations at the college, enhancing organizational and teamwork skills.</p>
+            <img src="experience2.jpg" alt="Committee Photo">
+        </div>
+
+        <div class="card" onclick="toggleCard(this)">
+            <h2>Acted as (MC) for the MOU signing event at Kolej Koridor</h2>
+            <p>Hosted and guided the program, ensuring smooth flow of the event while engaging participants professionally and confidently.</p>
+            <img src="experience1.jpg" alt="Secretary Photo">
+        </div>
+
+        <div class="card" oncl

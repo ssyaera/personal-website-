@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Syahirah | Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Times New Roman", serif;
+        }
+
+        body {
+            background-color: #eaf7e9; /* soft green */
+            color: #444;
+            text-align: center;
+        }
+
+        /* HEADER */
+        header {
+            background: #ffc5d9; /* soft pink */
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #444;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: #5fa86a; /* green hover */
+        }
+
+        /* CONTACT SECTION */
+        .contact {
+            padding: 60px 20px;
+            max-width: 600px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .contact h1 {
+            text-align: center;
+            font-size: 42px;
+            color: #5fa86a;
+            margin-bottom: 30px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            line-height: 2;
+            text-transform: uppercase; /* all uppercase */
+        }
+
+        .contact span {
+            font-weight: bold;
+            color: #5fa86a;
+            display: inline-block;
+            width: 150px; /* column for labels */
+        }
+
+        /* CONTACT FORM */
+        .contact-form {
+            margin-top: 30px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-family: "Times New Roman", serif;
+        }
+
+        .contact-form button {
+            padding: 12px 22px;
+            background: #5fa86a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background: #4b7a53;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #ffc5d9;
+            text-align: center;
+            padding: 20px;
+            color: #444;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <div class="logo">Syahirah</div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+        <h1>Contact Information</h1>
+
+        <p><span>Full Name:</span> SYAHIRAH BINTI ISHAK</p>
+        <p><span>Email:</span> Syahirahishak1401@gmail.com</p>
+        <p><span>Phone:</span> +60 190000000</p>
+        <p><span>Address:</span> KULIM, KEDAH</p>
+        <p><span>Instagram:</span> SSYAE._</p>
+        
+        <!-- CONTACT FORM -->
+        <div class="contact-form">
+            <h2 style="text-align:center; margin-bottom:15px; color:#5fa86a;">Send a Message</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Syahirah</p>
+    </footer>
+
+</body>
+</html>
